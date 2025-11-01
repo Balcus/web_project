@@ -8,7 +8,7 @@ namespace Api.DataAccess
         public PetsDatabaseContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<PetsDatabaseContext>();
-            optionsBuilder.UseNpgsql("<connection-string>");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=33861;Username=postgres;Password=t(A_HJEjRGV0_.t8wRHWFh;Database=appdb");
             return new PetsDatabaseContext(optionsBuilder.Options);
         }
     }

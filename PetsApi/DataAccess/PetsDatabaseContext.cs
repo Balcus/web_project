@@ -6,12 +6,12 @@ namespace Api.DataAccess;
 
 public class PetsDatabaseContext(DbContextOptions options) : DbContext(options)
 {
-    public DbSet<Animal> Lineup { get; set; }
-    public DbSet<Donation> Festival { get; set; }
-    public DbSet<Image> Artist { get; set; }
-    public DbSet<User> User { get; set; }
-    public DbSet<Post> Booking { get; set; }
-    public DbSet<Shelter> Ticket { get; set; }
+    public DbSet<Animal> Animals { get; set; }
+    public DbSet<Donation> Donations { get; set; }
+    public DbSet<Image> Images { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<Post> Posts { get; set; }
+    public DbSet<Shelter> Shelters { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
