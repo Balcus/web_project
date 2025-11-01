@@ -7,7 +7,6 @@ PawPal este o aplicatie web care conecteaza adaposturile de animale, voluntarii 
 ## Motivatie
 Mii de animale din Romania traiesc in adaposturi cu resurse limitate si vizibilitate redusa. Multi oameni vor sa ajute, dar nu stiu de unde sa inceapa. PawPal umple acest gol, oferind adaposturilor instrumente moderne de gestionare si conectandu-le cu comunitatea.
 
----
 
 ## Problema identificata
 Adaposturile se confrunta cu:
