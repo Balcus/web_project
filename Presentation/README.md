@@ -53,5 +53,5 @@ Prototip vizual realizat in sketch.io, include:
 - Pagina destinata adoptiei de animale
 - Pagina destinata adaposturilor
 
-## Echipa (exemplu)
+## Echipa
 - Balcus Bogdan (tot)
